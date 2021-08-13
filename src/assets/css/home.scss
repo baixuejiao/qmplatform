@@ -1,0 +1,164 @@
+.carouselHeader {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 0 0;
+}
+
+.headerTitle {
+  color: #efefef;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+  padding-right: 25px;
+  display: inline-block;
+  margin: 0;
+}
+.screenReaderText {
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: polygon(0px 0px, 0px 0px, 0px 0px, 0px 0px);
+  position: absolute !important;
+  white-space: nowrap;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+.headerLink {
+  font-size: 12px;
+  font-weight: 400;
+  color: #f96816;
+  text-decoration: none;
+}
+.headerLink:hover {
+  color: #f96816;
+}
+
+// 组件的公共样式
+.carousel {
+  margin-top: 40px;
+}
+.contentTitleCard{
+  margin-right: 1%;
+}
+.designSystemCarousel {
+  width: 100%;
+  margin-top: -20px;
+}
+.carousel-control-prev {
+  width: 20px;
+  left: -30px;
+}
+.carousel-control-next {
+  width: 20px;
+  right: -30px;
+}
+.carousel-ul {
+  display: flex;
+  // justify-content: space-between;
+}
+.carousel-ul li {
+  // width: 200px;
+  // flex-grow: 1;
+  width: 19%;
+}
+.cover_img_wrapper {
+  text-align: center;
+  width: 100%;
+  // padding-top: 60%;
+  // height: 120px;
+  margin-right: 2px;
+  overflow: hidden;
+  position: relative;
+}
+.cover_img_wrapper .cover_img {
+  // width: 200px;
+  width: 100%;
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.cover_img_wrapper:nth-last-child() {
+  margin-right: 0;
+}
+.contentTitleCardWrapper {
+  // display: inline-block;
+}
+.mosk {
+  width: 100%;
+  // height: 60%;
+  padding-top: 60%;
+  position: relative;
+  overflow: hidden;
+}
+.mosk:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  content: attr(data-text);
+  transform: translateY(-100%);
+}
+.mosk:hover:after {
+  transform: translateY(0);
+}
+.svg_play {
+  display: block;
+  transition: all 0.2s ease-in-out;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  z-index: 2;
+}
+.svg_play svg {
+  list-style: none;
+  fill: #ccc;
+  transition: transform 0.2s ease-in-out, fill 0.2s ease;
+}
+.mosk:hover .svg_play {
+  display: block;
+}
+.svg_play:hover svg {
+  display: block;
+  fill: rgb(236, 53, 85);
+  transform: scale(1.1);
+}
+.home-activity-entry{
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  &::after,
+  &::before {
+    content: "";
+    width: 0;
+    height: 1px;
+    display: block;
+    background-color: #f96816;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transition: all 0.5s;
+  }
+  &:hover{
+    color: #f96816;
+
+    &::before{
+      left: 0%;
+      width: 50%;
+      color: #f96816;
+    }
+    &::after{
+      left: 50%;
+      width: 50%;
+      color: #f96816;
+    }
+  }
+
+}

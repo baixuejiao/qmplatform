@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="24px" viewBox="0 0 20 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_timer_24px</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Onboarding-Update-v2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Test-Onboard-pg1" transform="translate(-99.000000, -347.000000)" fill="#E80A89">
+            <g id="ic_timer_24px" transform="translate(99.000000, 347.000000)">
+                <path d="M9,12.2675644 L9,8 L11,8 L11,12.2675644 C11.5978014,12.6133738 12,13.2597176 12,14 C12,15.1045695 11.1045695,16 10,16 C8.8954305,16 8,15.1045695 8,14 C8,13.2597176 8.40219863,12.6133738 9,12.2675644 Z M17.5141213,7.40147264 C19.061619,9.16230163 20,11.4715655 20,14 C20,19.5228475 15.5228475,24 10,24 C4.4771525,24 0,19.5228475 0,14 C0,8.8146519 3.94667731,4.55109967 9,4.04937524 L9,2 L6,2 L6,0 L14,0 L14,2 L11,2 L11,4.04937524 C12.8872688,4.2367547 14.6201822,4.94883575 16.0507975,6.03767573 L17.9904747,4.02908119 L19.4291543,5.41839793 L17.5141213,7.40147264 Z M10,22 C14.418278,22 18,18.418278 18,14 C18,9.581722 14.418278,6 10,6 C5.581722,6 2,9.581722 2,14 C2,18.418278 5.581722,22 10,22 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

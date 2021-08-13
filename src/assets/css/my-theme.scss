@@ -1,0 +1,19 @@
+.ivu-modal-content{
+  color: #fff;
+  background-color: #222;
+}
+.ivu-modal-confirm-head-title,
+.ivu-modal-confirm-body{
+  color: #fff;
+}
+.ivu-btn-primary{
+  border: none;
+  color: #fff;
+  background: #e80a89;
+  transition: box-shadow .3s ease-in-out;
+
+  &:hover{
+    box-shadow: 0 10px 30px rgba(0,0,0,.2);
+    background: linear-gradient(to right,#f05a28 0,#e80a89 100%);
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "code": 2,
+  "message": "",
+  "userInfo": {
+    "_id": "5d5cb8ecdafe3c37dcb3e36d",
+    "name": "aa",
+    "pass": "aa",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFhIiwidXNlcmlkIjoiNWQ1Y2I4ZWNkYWZlM2MzN2RjYjNlMzZkIiwiaWF0IjoxNTY2MzY2NDQyLCJleHAiOjIyNTc1NjY0NDJ9.ZB1nwIfxMceYNrZJucE6TfBGfFgTdSbG0cvrhDAq_dM"
+  }
+}
